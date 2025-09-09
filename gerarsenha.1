@@ -1,0 +1,46 @@
+.TH GERARSENHA 1 2024-03-31
+
+.SH NAME
+gerarsenha \- generate password
+
+.SH SYNOPSIS
+.B gerarsenha
+[\fB\-h\fR]
+[\fB\-\-help\fR]
+[\fB\-l\fR \fIlength\fR]
+[\fB\-\-length\fR=\fIlength\fR]
+[\fB\-M\fR]
+[\fB\-\-no\-majuscules\fR]
+[\fB\-m\fR]
+[\fB\-\-no\-minuscules\fR]
+[\fB\-n\fR]
+[\fB\-\-no\-numerals\fR]
+[\fB\-s\fR]
+[\fB\-\-no\-symbols\fR]
+
+.SH DESCRIPTION
+.B gerarsenha
+generates a password. By default, it's a random 16 character password, which may include majuscules, minuscules, numerals and symbols.
+
+.SH OPTIONS
+.TP
+.BR \-h ", " \-\-help
+displays help information
+.TP
+.BR \-l ", " \-\-length " " \fIlength
+sets the \fIlength\fR of the password
+.TP
+.BR \-M ", " \-\-no\-majuscules
+disables majuscules
+.TP
+.BR \-m ", " \-\-no\-minuscules
+disables minuscules
+.TP
+.BR \-n ", " \-\-no\-numerals
+disables numerals
+.TP
+.BR \-s ", " \-\-no\-symbols
+disables symbols
+
+.SH AUTHOR
+Lucas Melo Sanginetto (lucassanginetto@protonmail.com).
