@@ -13,5 +13,8 @@ install: gerarsenha
 	cp -f gerarsenha.1 /usr/local/share/man/man1
 	chmod 644 /usr/local/share/man/man1/gerarsenha.1
 
+uninstall:
+	rm -f /usr/local/bin/gerarsenha /usr/local/share/man/man1/gerarsenha.1
+
 clean:
 	rm -f gerarsenha
